@@ -1,7 +1,7 @@
-type PonyColorType = 'YELLOW' | 'ORANGE' | 'PURPLE' | 'GREEN' | 'BLUE';
+type ColorType = 'ORANGE' | 'YELLOW' | 'GREEN' | 'BLUE' | 'PURPLE';
 
 export interface PonyModel {
   id: number;
   name: string;
-  color: PonyColorType;
+  color: ColorType;
 }
