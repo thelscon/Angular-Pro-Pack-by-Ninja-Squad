@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { PonyModel } from '../models/pony.model';
 
 import { RaceModel } from '../models/race.model';
 
@@ -9,4 +10,6 @@ import { RaceModel } from '../models/race.model';
 })
 export class RaceComponent {
   @Input() raceModel!: RaceModel;
+
+  clicked(value: PonyModel): void {}
 }
