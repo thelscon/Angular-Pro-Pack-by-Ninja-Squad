@@ -1,5 +1,5 @@
 <h2>{{ raceModel.name }}</h2>
-<p>{{ startInstant | date :'short' }}</p>
+<p>{{ startInstant | date :'yyyy-mm-ddTHH:mm:ss' | fromNow }}</p>
 <div class="container">
   <pr-pony *ngFor="let ponies of raceModel.ponies" [ponyModel]="ponies" (ponyClicked)="clicked($event)"></pr-pony>
 </div>

@@ -11,7 +11,7 @@ import { RaceModel } from '../models/race.model';
 export class RaceComponent {
   @Input() raceModel!: RaceModel;
 
-  startInstant: Date = new Date(2022, 1, 18, 8, 2);
+  startInstant: Date = new Date(2020, 1, 18, 8, 2);
 
   clicked(value: PonyModel): void {}
 }
